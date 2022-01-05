@@ -1,0 +1,81 @@
+
+
+.listbox{
+	margin-left: 8px;
+	margin-top: 25px;
+	font-family: arial;
+}
+
+.listbox ul{
+	margin: 0px;
+	padding:0px;
+	
+
+	list-style: none;
+	display: block;
+	/*height: 40px;*/
+	width: 100%;
+	margin-bottom: 5px;
+
+}
+.listbox ul li{
+	display: block;/*changes made by shubham */
+	float: left;
+	width: 149px;/*changes made by shubham */
+	height: 40px;
+	background-color: black;
+	margin-right: 2px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px; /*changes made by shubham */
+	font-weight: 500;/*changes made by shubham */
+
+	
+
+	 /*changes made by shubham */
+	/*border: 1.5px solid red;*/
+
+}
+
+.listbox ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	
+	
+}
+
+.listbox ul li a:hover{
+	background-color: #00c3ff;
+	color: black;
+	
+	}
+
+.listbox ul li ul li{
+	display: none;
+}
+.listbox ul li:hover ul li{
+	display: block;
+	height: 37px;
+	background-color: black;
+	margin-top: 1px;
+	position: relative;
+	z-index: 100;
+	margin-left: 0px;
+
+
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+	margin-top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+
+.listbox ul li .active{
+	background-color: #00c3ff;
+	color: black;
+	/*border: 2px solid black;*/
+}

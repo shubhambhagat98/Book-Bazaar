@@ -1,0 +1,118 @@
+
+body{
+			margin: 0;
+			padding: 0;
+			background: url(b5.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			font-family: sans-serif;
+		}
+
+
+		/*div class property*/
+
+		.loginbox{
+			font-family: sans-serif;
+			margin: 0 auto;
+			min-width: 300px;
+			width: 70%;
+			height: 70%;
+			background: rgba(0,0,0,0.6);
+			color: white; /*#fff*/
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 40px;
+			box-sizing:border-box; 
+
+
+
+		}
+
+		.loginbox h1{
+			font-size: 30px;
+			margin: 20px; 
+			text-align: center;
+		}
+
+		.loginbox label{
+			/*margin: 0;*/
+			font-weight: bold;
+		}
+
+		.loginbox label[name="left"],label[name="left1"],label[name="left2"]{
+			margin-left: 100px;
+		}
+
+		.loginbox label[name="right"],label[name="right1"],label[name="right2"]{
+			margin-left: 40px;
+		}
+
+		.loginbox input{
+			padding-bottom: 5px;
+
+		}
+
+
+		.loginbox input[type="text"]{
+			border: none;
+			border-bottom: 1px solid white;
+			background: transparent;
+			outline: none;
+			margin-top: 20px;
+			color: white;
+			margin-left: 10px;
+			width: 30%;
+			margin-bottom: 20px;
+			font-size: 14px;
+			
+
+		}
+
+		.loginbox input[type="password"]{
+			border: none;
+			border-bottom: 1px solid white;
+			background: transparent;
+			outline: none;
+			margin-top: 20px;
+			color: white;
+			margin-left: 10px;
+			width: 30%;
+			margin-bottom: 20px;
+			
+
+		}
+
+		.loginbox input[name="Email"]{
+			width: 30.5%;
+		}
+
+		.loginbox input[type="submit"]{
+			border:none;
+			outline: none;
+			height: 40px;
+			background: #00c3ff;
+			color: #111;
+			font-size: 18px;
+			font-weight: 600;
+			border-radius: 20px;
+			margin:auto;
+    		display:block;
+    		width: 15%;
+			margin-bottom: 20px;
+			transition: 0.4s;
+
+		}
+
+		.loginbox input[type="submit"]:hover{
+			cursor: pointer;
+			background: #0af;
+			width: 20%;
+			border-radius: 12px;
+			font-weight: 600;
+			box-shadow: 1px 1px 2px black, 0 0 15px black, 0 0 5px black;
+		}
+
+		
